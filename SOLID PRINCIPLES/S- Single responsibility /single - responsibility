@@ -1,0 +1,20 @@
+S - Single responsibility 
+
+What ever the classes that you create should only have a single responsibility 
+one class = one job 
+* As a class only do one thing and it has only one responsibilty 
+* It does not do all the task which are presented each has there individual and similar repsonsibility to be done 
+
+
+example:- 
+AI model: class AI model 
+which it should only have the responsibilty of train and predict the model which is an good practise 
+which the functions are :
+    Train 
+    Predict 
+but Bad model has 
+
+    save_file 
+    load_file 
+    which the above two functions are the responsible for the data storing of ai which should not be in the AI model 
+    
